@@ -1,0 +1,29 @@
+//
+// TabellaCorrispondenzaMateriali TRend Unity
+//
+// Versione 0.0 
+// simboli presenti: > < = * .... separatore campo | ....commento //
+//
+// FatherMaterialName		 Diffuse		 Specular		 Reflection		 Blur		     Roughness	     UnityMaterialName 
+						
+_TesyTexturedConstant		|		*		|		*		|		*		|		*		|   	*		|	UTesyTexturedConstant
+_TesyTexturedPlastic		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyTexturedPlasticHighReflection
+_TesyTexturedPlastic		|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyTexturedPlasticLowReflection
+_TesyTexturedPlastic        |       *		|		*		|		*		|	    *		|   	*   	|	UTesyTexturedPlastic
+_TesyWood           		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyTexturedPlasticHighReflection
+_TesyWood					|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyTexturedPlasticLowReflection
+_TesyWood			        |       *		|		*		|		*		|	    *		|   	*    	|	UTesyTexturedPlastic
+_TesyBrushedMetal			|		*		|		*		|		*       |		*		|   	*		|	UTesyBrushedMetal
+_TesyMetalHighReflection	|		*		|		*		|		*		|		*		|   	*		|	UTesyMetalHighReflection
+_TesyMetalLowReflection		|		*		|		*		|		*		|		*		|   	*		|	UTesyMetalLowReflection
+_TesyCarPaint				|		*		|		*		|		*		|		*		|   	*		|	UTesyMetalHighReflection
+_TesyMarble					|		*		|		*		|		*		|		*		|   	*		|	UTesyMarble
+_TesyCeramic				|		*		|		*		|		*		|		*		|   	*		|	UTesyCeramic
+_TesyThinGlass				|		*		|		*		|		*		|		*		|   	*		|	UTesyThinGlass
+_TesyThinPlastic			|		*		|		*		|		*		|		*		|   	*		|	UTesyThinGlass
+_TesyWeightGlass			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass
+_TesyWeightPlastic			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass				
+_TesyFrostedGlass			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass	
+_TesyCLay       			|		*		|		*		|		*		|		*		|   	*		|	UTesyCLay		
+_UNKNOW						|		*		|		*		|		*		|		*		|   	*		|	UTesyTexturedPlastic
+
