@@ -1,0 +1,15 @@
+# txe_export.utm
+
+# DEFAULT MATERIAL
+defmat UTesyDefaultMat
+
+# OTHER MATERIALS
+defmat UTesyClay
+defmat UTesyTexturedPlastic_img3
+settxt img3.jpg
+defmat UTesyMetalLowReflection
+defmat UTesyTexturedPlastic_img4
+settxt img4.jpg
+defmat UTesyTexturedPlasticLowReflection
+defmat UTesyClay_img5
+settxt img5.jpg

@@ -95,7 +95,7 @@ public class MaterialsGenerator : MonoBehaviour
     }
 
     private const int mk_iNEntries = 7;
-    private const string mk_sTesyMaterialsFolder = "Assets/TesyMaterials/";
+    private const string mk_sTesyMaterialsFolder = "Assets/AutoTesyMaterials/";
 }
 
 //struct TesyMaterial

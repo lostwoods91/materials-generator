@@ -1,0 +1,15 @@
+# txe_export.mtl
+
+# DEFAULT MATERIAL
+newmtl UTesyDefaultMat
+
+# OTHER MATERIALS
+newmtl UTesyClay
+newmtl UTesyTexturedPlastic_img3
+map_Kd img3.jpg
+newmtl UTesyMetalLowReflection
+newmtl UTesyTexturedPlastic_img4
+map_Kd img4.jpg
+newmtl UTesyTexturedPlasticLowReflection
+newmtl UTesyClay_img5
+map_Kd img5.jpg
