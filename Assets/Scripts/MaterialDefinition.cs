@@ -67,7 +67,7 @@ class MaterialDefinition
             else
             {
                 // è un materiale custom, mi assicuro che non esista già
-                Assert.AreNotEqual(Directory.GetFiles(customMaterialsFolder, name + ".mat").Length, 0);
+                Assert.AreEqual(Directory.GetFiles(customMaterialsFolder, name + ".mat").Length, 0);
 
                 // quindi lo creo
                 string materialPath = customMaterialsFolder + "/" + name + ".mat";
