@@ -5,7 +5,10 @@
 // simboli presenti: > < = * .... separatore campo | ....commento //
 //
 // FatherMaterialName		 Diffuse		 Specular		 Reflection		 Blur		     Roughness	     UnityMaterialName 
-						
+
+// Default material definition
+_UNKNOW						|		*		|		*		|		*		|		*		|   	*		|	UTesyDefaultMat
+
 _TesyTexturedConstant		|		*		|		*		|		*		|		*		|   	*		|	UTesyTexturedConstant
 _TesyTexturedPlastic		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyTexturedPlasticHighReflection
 _TesyTexturedPlastic		|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyTexturedPlasticLowReflection
@@ -22,8 +25,6 @@ _TesyCeramic				|		*		|		*		|		*		|		*		|   	*		|	UTesyCeramic
 _TesyThinGlass				|		*		|		*		|		*		|		*		|   	*		|	UTesyThinGlass
 _TesyThinPlastic			|		*		|		*		|		*		|		*		|   	*		|	UTesyThinGlass
 _TesyWeightGlass			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass
-_TesyWeightPlastic			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass				
-_TesyFrostedGlass			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass	
-_TesyCLay       			|		*		|		*		|		*		|		*		|   	*		|	UTesyCLay		
-_UNKNOW						|		*		|		*		|		*		|		*		|   	*		|	UTesyTexturedPlastic
-
+_TesyWeightPlastic			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass
+_TesyFrostedGlass			|		*		|		*		|		*		|		*		|   	*		|	UTesyWeightGlass
+_TesyCLay       			|		*		|		*		|		*		|		*		|   	*		|	UTesyCLay
