@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -44,10 +45,13 @@ class MaterialDefinition
         texture = value;
     }
 
-    public void setColor(string value)
+    public void setColor(float r, float g, float b, float a)
     {
-        // TODO not implemented yet
         hasColor = true;
+        color.r = r;
+        color.g = g;
+        color.b = b;
+        color.a = a;
     }
 
     public void create()
@@ -88,7 +92,7 @@ class MaterialDefinition
                 }
                 if (hasColor)
                 {
-                    // TODO not implemented yet
+                    material.color = color;
                 }
                 AssetDatabase.CreateAsset(material, materialPath);
 

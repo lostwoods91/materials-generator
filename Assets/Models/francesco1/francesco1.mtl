@@ -6,30 +6,69 @@ newmtl UTesyDefaultMat
 # OTHER MATERIALS
 newmtl UTesyDefaultMat
 newmtl UTesyThinGlass
-newmtl UTesyTexturedPlastic
-newmtl UTesyMetalHighReflection
-newmtl UTesyTexturedPlastic_img18
+newmtl UTesyWood_Color0
+Kd 0.517647 0.486275 0.415686 1.000000
+newmtl UTesyMetalHighReflection_Color1
+Kd 0.925490 0.941176 0.980392 1.000000
+newmtl UTesyDefaultMat_Color2
+Kd 0.956863 0.937255 0.894118 1.000000
+newmtl UTesyWood_img18_Color3
 map_Kd Resources/img18.jpg
+Kd 0.192157 0.184314 0.145098 1.000000
 newmtl UTesyCeramic
-newmtl UTesyDefaultMat_img20
+newmtl UTesyDefaultMat_Color4
+Kd 0.945098 0.925490 0.709804 1.000000
+newmtl UTesyDefaultMat_img20_Color5
 map_Kd Resources/img20.jpg
-newmtl UTesyMetalLowReflection
-newmtl UTesyTexturedPlastic_img19
+Kd 0.700000 0.700000 0.700000 1.000000
+newmtl UTesyMetalLowReflection_Color6
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyWood_img19_Color7
 map_Kd Resources/img19.jpg
-newmtl UTesyTexturedPlastic_img11
+Kd 0.933333 0.933333 0.890196 1.000000
+newmtl UTesyWood_img11_Color8
 map_Kd Resources/img11.jpg
-newmtl UTesyMetalLowReflection_img13
+Kd 0.933333 0.933333 0.890196 1.000000
+newmtl UTesyMetalLowReflection_img13_Color9
 map_Kd Resources/img13.jpg
-newmtl UTesyDefaultMat_img14
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyMetalLowReflection
+newmtl UTesyDefaultMat_img14_Color10
 map_Kd Resources/img14.jpg
-newmtl UTesyWeightGlass
-newmtl UTesyTexturedPlasticHighReflection_img12
+Kd 0.700000 0.700000 0.700000 1.000000
+newmtl UTesyWood
+newmtl UTesyDefaultMat_Color11
+Kd 0.588235 0.588235 0.588235 0.529412
+newmtl UTesyMetalHighReflection_Color12
+Kd 0.039216 0.039216 0.039216 1.000000
+newmtl UTesyDefaultMat_Color13
+Kd 0.266667 0.266667 0.266667 1.000000
+newmtl UTesyWeightGlass_Color14
+Kd 0.470588 0.407843 0.321569 0.363400
+newmtl UTesyDefaultMat_Color15
+Kd 0.298039 0.278431 0.254902 0.394737
+newmtl UTesyWood_Color16
+Kd 0.800000 0.772549 0.749020 1.000000
+newmtl UTesyWood_Color17
+Kd 0.741176 0.709804 0.678431 1.000000
+newmtl UTesyWood_img12
 map_Kd Resources/img12.jpg
-newmtl UTesyTexturedPlasticHighReflection
-newmtl UTesyDefaultMat_img17
+newmtl UTesyDefaultMat_Color18
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyMetalHighReflection_Color19
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyDefaultMat_Color20
+Kd 0.317647 0.400000 0.239216 1.000000
+newmtl UTesyDefaultMat_img17_Color21
 map_Kd Resources/img17.jpg
-newmtl UTesyDefaultMat_img16
+Kd 0.700000 0.700000 0.700000 1.000000
+newmtl UTesyDefaultMat_Color22
+Kd 0.960784 0.937255 0.933333 1.000000
+newmtl UTesyDefaultMat_img16_Color23
 map_Kd Resources/img16.jpg
-newmtl UTesyDefaultMat_img15
+Kd 0.700000 0.700000 0.700000 1.000000
+newmtl UTesyDefaultMat_Color24
+Kd 0.752941 0.752941 0.752941 1.000000
+newmtl UTesyDefaultMat_img15_Color25
 map_Kd Resources/img15.jpg
-newmtl UTesyTexturedPlasticLowReflection
+Kd 0.700000 0.700000 0.700000 1.000000

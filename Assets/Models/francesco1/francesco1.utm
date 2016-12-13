@@ -9,47 +9,99 @@ definemat UTesyDefaultMat
 basemat UTesyDefaultMat
 definemat UTesyThinGlass
 basemat UTesyThinGlass
-definemat UTesyTexturedPlastic
-basemat UTesyTexturedPlastic
-definemat UTesyMetalHighReflection
+definemat UTesyWood_Color0
+basemat UTesyWood
+setcolor 0.517647 0.486275 0.415686 1.000000
+definemat UTesyMetalHighReflection_Color1
 basemat UTesyMetalHighReflection
-definemat UTesyTexturedPlastic_img18
-basemat UTesyTexturedPlastic
+setcolor 0.925490 0.941176 0.980392 1.000000
+definemat UTesyDefaultMat_Color2
+basemat UTesyDefaultMat
+setcolor 0.956863 0.937255 0.894118 1.000000
+definemat UTesyWood_img18_Color3
+basemat UTesyWood
 settext img18.jpg
+setcolor 0.192157 0.184314 0.145098 1.000000
 definemat UTesyCeramic
 basemat UTesyCeramic
-definemat UTesyDefaultMat_img20
+definemat UTesyDefaultMat_Color4
+basemat UTesyDefaultMat
+setcolor 0.945098 0.925490 0.709804 1.000000
+definemat UTesyDefaultMat_img20_Color5
 basemat UTesyDefaultMat
 settext img20.jpg
-definemat UTesyMetalLowReflection
+setcolor 0.700000 0.700000 0.700000 1.000000
+definemat UTesyMetalLowReflection_Color6
 basemat UTesyMetalLowReflection
-definemat UTesyTexturedPlastic_img19
-basemat UTesyTexturedPlastic
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyWood_img19_Color7
+basemat UTesyWood
 settext img19.jpg
-definemat UTesyTexturedPlastic_img11
-basemat UTesyTexturedPlastic
+setcolor 0.933333 0.933333 0.890196 1.000000
+definemat UTesyWood_img11_Color8
+basemat UTesyWood
 settext img11.jpg
-definemat UTesyMetalLowReflection_img13
+setcolor 0.933333 0.933333 0.890196 1.000000
+definemat UTesyMetalLowReflection_img13_Color9
 basemat UTesyMetalLowReflection
 settext img13.jpg
-definemat UTesyDefaultMat_img14
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyMetalLowReflection
+basemat UTesyMetalLowReflection
+definemat UTesyDefaultMat_img14_Color10
 basemat UTesyDefaultMat
 settext img14.jpg
-definemat UTesyWeightGlass
+setcolor 0.700000 0.700000 0.700000 1.000000
+definemat UTesyWood
+basemat UTesyWood
+definemat UTesyDefaultMat_Color11
+basemat UTesyDefaultMat
+setcolor 0.588235 0.588235 0.588235 0.529412
+definemat UTesyMetalHighReflection_Color12
+basemat UTesyMetalHighReflection
+setcolor 0.039216 0.039216 0.039216 1.000000
+definemat UTesyDefaultMat_Color13
+basemat UTesyDefaultMat
+setcolor 0.266667 0.266667 0.266667 1.000000
+definemat UTesyWeightGlass_Color14
 basemat UTesyWeightGlass
-definemat UTesyTexturedPlasticHighReflection_img12
-basemat UTesyTexturedPlasticHighReflection
+setcolor 0.470588 0.407843 0.321569 0.363400
+definemat UTesyDefaultMat_Color15
+basemat UTesyDefaultMat
+setcolor 0.298039 0.278431 0.254902 0.394737
+definemat UTesyWood_Color16
+basemat UTesyWood
+setcolor 0.800000 0.772549 0.749020 1.000000
+definemat UTesyWood_Color17
+basemat UTesyWood
+setcolor 0.741176 0.709804 0.678431 1.000000
+definemat UTesyWood_img12
+basemat UTesyWood
 settext img12.jpg
-definemat UTesyTexturedPlasticHighReflection
-basemat UTesyTexturedPlasticHighReflection
-definemat UTesyDefaultMat_img17
+definemat UTesyDefaultMat_Color18
+basemat UTesyDefaultMat
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyMetalHighReflection_Color19
+basemat UTesyMetalHighReflection
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyDefaultMat_Color20
+basemat UTesyDefaultMat
+setcolor 0.317647 0.400000 0.239216 1.000000
+definemat UTesyDefaultMat_img17_Color21
 basemat UTesyDefaultMat
 settext img17.jpg
-definemat UTesyDefaultMat_img16
+setcolor 0.700000 0.700000 0.700000 1.000000
+definemat UTesyDefaultMat_Color22
+basemat UTesyDefaultMat
+setcolor 0.960784 0.937255 0.933333 1.000000
+definemat UTesyDefaultMat_img16_Color23
 basemat UTesyDefaultMat
 settext img16.jpg
-definemat UTesyDefaultMat_img15
+setcolor 0.700000 0.700000 0.700000 1.000000
+definemat UTesyDefaultMat_Color24
+basemat UTesyDefaultMat
+setcolor 0.752941 0.752941 0.752941 1.000000
+definemat UTesyDefaultMat_img15_Color25
 basemat UTesyDefaultMat
 settext img15.jpg
-definemat UTesyTexturedPlasticLowReflection
-basemat UTesyTexturedPlasticLowReflection
+setcolor 0.700000 0.700000 0.700000 1.000000

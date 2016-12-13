@@ -10,4 +10,3 @@ guida per importare modello obj esportato da txe:
 - eseguire il gioco per attivare la creazione automatica dei materiali custom e poi interromperlo: i materiali sono stati creati;
 - selezionare il file .obj e, nell'inspector, impostare la ricerca dei materiali al valore "Project-Wide", quindi premere "Apply";
 - attendere che i materiali siano correttamente impostati.
-

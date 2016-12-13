@@ -3,6 +3,7 @@ using UnityEditor;
 using System.Text;
 using System.IO;
 using System;
+using UnityEngine.Assertions;
 
 public class MaterialsGenerator : MonoBehaviour
 {
@@ -69,7 +70,7 @@ public class MaterialsGenerator : MonoBehaviour
                 MaterialDefinition.setBaseMaterialsFolder("Assets/" + baseMaterialsFolderName + "/Resources");
 
                 // mi assicuro che venga generata un'eccezione se qualcosa dovesse andare storto durante il parsing
-                //Assert.raiseExceptions = false;
+                Assert.raiseExceptions = false;
 
                 // leggo il file riga per riga
                 do
@@ -133,7 +134,8 @@ public class MaterialsGenerator : MonoBehaviour
 
         if (command == UTM_SET_COLOR)
         {
-            current.setColor(value);
+            Assert.AreEqual(instruction.Length, 5);
+            current.setColor(Convert.ToSingle(instruction[1]), Convert.ToSingle(instruction[2]), Convert.ToSingle(instruction[3]), Convert.ToSingle(instruction[4]));
             return;
         }
     }

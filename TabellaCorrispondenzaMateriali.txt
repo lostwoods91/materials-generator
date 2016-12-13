@@ -4,18 +4,20 @@
 // Versione 0.0 
 // simboli presenti: > < = * .... separatore campo | ....commento //
 //
+// Attenzione! L'ordine dei vari record NON CONTA
+//
 // FatherMaterialName		 Diffuse		 Specular		 Reflection		 Blur		     Roughness	     UnityMaterialName 
 
 // Default material definition
-_UNKNOW						|		*		|		*		|		*		|		*		|   	*		|	UTesyDefaultMat
+_UNKNOWN					|		*		|		*		|		*		|		*		|   	*		|	UTesyDefaultMat
 
 _TesyTexturedConstant		|		*		|		*		|		*		|		*		|   	*		|	UTesyTexturedConstant
 _TesyTexturedPlastic		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyTexturedPlasticHighReflection
 _TesyTexturedPlastic		|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyTexturedPlasticLowReflection
 _TesyTexturedPlastic        |       *		|		*		|		*		|	    *		|   	*   	|	UTesyTexturedPlastic
-_TesyWood           		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyTexturedPlasticHighReflection
-_TesyWood					|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyTexturedPlasticLowReflection
-_TesyWood			        |       *		|		*		|		*		|	    *		|   	*    	|	UTesyTexturedPlastic
+_TesyWood           		|		*		|		*		|		> 0.8   |		*		|   	< 0.11	|	UTesyWood
+_TesyWood					|		*		|		*		|		> 0.4	|		*		|   	> 0.11	|	UTesyWood
+_TesyWood			        |       *		|		*		|		*		|	    *		|   	*    	|	UTesyWood
 _TesyBrushedMetal			|		*		|		*		|		*       |		*		|   	*		|	UTesyBrushedMetal
 _TesyMetalHighReflection	|		*		|		*		|		*		|		*		|   	*		|	UTesyMetalHighReflection
 _TesyMetalLowReflection		|		*		|		*		|		*		|		*		|   	*		|	UTesyMetalLowReflection
