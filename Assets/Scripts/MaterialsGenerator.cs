@@ -8,31 +8,36 @@ public class MaterialsGenerator : MonoBehaviour
 {
     void Start()
     {
-        if (searchForUtmFile())
+        customMaterialsFolder = modelFolderPath + "/" + customMaterialsFolderName;
+        string[] tokens = modelFolderPath.Split('/');
+        modelName = tokens[tokens.Length - 1];
+        if (!Directory.Exists(customMaterialsFolder) || overwrite)
         {
-            initFolder();
-            generateCustomMaterials();
+            utmFile = modelFolderPath + "/" + modelName + ".utm";
+            if (!Directory.Exists(utmFile))
+            {
+                initFolder();
+                generateCustomMaterials();
+            }
         }
-
     }
 
-    private bool searchForUtmFile()
-    {
-        string[] found = Directory.GetFiles(modelFolderPath, "*.utm");
-        if (found.Length > 0)
-        {
-            // la prima occorrenza contiene il percorso completo, prendo solo il nome del file
-            string[] tokens = found[0].Split('\\');
-            utmFile = tokens[tokens.Length - 1];
-            return true;
-        }
-        else
-            return false;
-    }
+    //private bool searchForUtmFile()
+    //{
+    //    string[] found = Directory.GetFiles(modelName, "*.utm");
+    //    if (found.Length > 0)
+    //    {
+    //        // la prima occorrenza contiene il percorso completo, prendo solo il nome del file
+    //        string[] tokens = found[0].Split('\\');
+    //        utmFile = tokens[tokens.Length - 1];
+    //        return true;
+    //    }
+    //    else
+    //        return false;
+    //}
 
     private void initFolder()
     {
-        customMaterialsFolder = modelFolderPath + "/" + customMaterialsFolderName;
         if (Directory.Exists(customMaterialsFolder))
         {
             Directory.Delete(customMaterialsFolder, true);
@@ -47,7 +52,7 @@ public class MaterialsGenerator : MonoBehaviour
         {
             string line;
             // Create a new StreamReader, tell it which file to read and what encoding the file was saved as
-            StreamReader theReader = new StreamReader(modelFolderPath + "/" + utmFile, Encoding.Default);
+            StreamReader theReader = new StreamReader(utmFile, Encoding.Default);
 
             // Immediately clean up the reader after this block of code is done.
             // You generally use the "using" statement for potentially memory-intensive objects
@@ -59,7 +64,7 @@ public class MaterialsGenerator : MonoBehaviour
                 // inizializzo la definizione di materiale
                 current = new MaterialDefinition();
                 //current.setVerbose(false);
-                MaterialDefinition.setModelFolder(modelFolderPath);
+                MaterialDefinition.setModelName(modelName);
                 MaterialDefinition.setCustomMaterialsFolder(customMaterialsFolder);
                 MaterialDefinition.setBaseMaterialsFolder("Assets/" + baseMaterialsFolderName + "/Resources");
 
@@ -148,11 +153,13 @@ public class MaterialsGenerator : MonoBehaviour
 
     #endregion
 
+    private string modelName;
     private string utmFile;
     private string customMaterialsFolder;
     private MaterialDefinition current;
 
     [SerializeField]
     private string modelFolderPath;
-
+    [SerializeField]
+    private bool overwrite = false;
 }

@@ -83,7 +83,7 @@ class MaterialDefinition
                 }
                 if (texture != null)
                 {
-                    Texture2D text = (Texture2D)Resources.Load(texture.Split('.')[0]);
+                    Texture2D text = Resources.Load<Texture2D>(modelName + "/" + texture.Split('.')[0]);
                     material.mainTexture = text;
                 }
                 if (hasColor)
@@ -115,14 +115,14 @@ class MaterialDefinition
         customMaterialsFolder = value;
     }
 
-    public static void setModelFolder(string value)
+    public static void setModelName(string value)
     {
-        modelFolder = value;
+        modelName = value;
     }
 
     private static string baseMaterialsFolder = null;
     private static string customMaterialsFolder = null;
-    private static string modelFolder = null;
+    private static string modelName = null;
 
     private string name;
     private string basemat;

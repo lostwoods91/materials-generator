@@ -1,0 +1,35 @@
+# francesco1.mtl
+
+# DEFAULT MATERIAL
+newmtl UTesyDefaultMat
+
+# OTHER MATERIALS
+newmtl UTesyDefaultMat
+newmtl UTesyThinGlass
+newmtl UTesyTexturedPlastic
+newmtl UTesyMetalHighReflection
+newmtl UTesyTexturedPlastic_img18
+map_Kd Resources/img18.jpg
+newmtl UTesyCeramic
+newmtl UTesyDefaultMat_img20
+map_Kd Resources/img20.jpg
+newmtl UTesyMetalLowReflection
+newmtl UTesyTexturedPlastic_img19
+map_Kd Resources/img19.jpg
+newmtl UTesyTexturedPlastic_img11
+map_Kd Resources/img11.jpg
+newmtl UTesyMetalLowReflection_img13
+map_Kd Resources/img13.jpg
+newmtl UTesyDefaultMat_img14
+map_Kd Resources/img14.jpg
+newmtl UTesyWeightGlass
+newmtl UTesyTexturedPlasticHighReflection_img12
+map_Kd Resources/img12.jpg
+newmtl UTesyTexturedPlasticHighReflection
+newmtl UTesyDefaultMat_img17
+map_Kd Resources/img17.jpg
+newmtl UTesyDefaultMat_img16
+map_Kd Resources/img16.jpg
+newmtl UTesyDefaultMat_img15
+map_Kd Resources/img15.jpg
+newmtl UTesyTexturedPlasticLowReflection

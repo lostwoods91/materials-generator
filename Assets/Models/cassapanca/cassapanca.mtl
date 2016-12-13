@@ -1,0 +1,15 @@
+# cassapanca.mtl
+
+# DEFAULT MATERIAL
+newmtl UTesyDefaultMat
+
+# OTHER MATERIALS
+newmtl UTesyDefaultMat
+newmtl UTesyDefaultMat_img3
+map_Kd Resources/img3.jpg
+newmtl UTesyMetalLowReflection
+newmtl UTesyTexturedPlastic_img4
+map_Kd Resources/img4.jpg
+newmtl UTesyTexturedPlasticLowReflection
+newmtl UTesyDefaultMat_img5
+map_Kd Resources/img5.jpg

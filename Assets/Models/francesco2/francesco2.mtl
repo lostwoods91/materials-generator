@@ -1,0 +1,38 @@
+# francesco2.mtl
+
+# DEFAULT MATERIAL
+newmtl UTesyDefaultMat
+
+# OTHER MATERIALS
+newmtl UTesyDefaultMat
+newmtl UTesyTexturedPlastic_img18
+map_Kd Resources/img18.jpg
+newmtl UTesyMarble_img22
+map_Kd Resources/img22.jpg
+newmtl UTesyMarble_img20
+map_Kd Resources/img20.jpg
+newmtl UTesyTexturedPlastic
+newmtl UTesyMetalLowReflection
+newmtl UTesyTexturedPlastic_img13
+map_Kd Resources/img13.jpg
+newmtl UTesyDefaultMat_img20
+map_Kd Resources/img20.jpg
+newmtl UTesyDefaultMat_img15
+map_Kd Resources/img15.jpg
+newmtl UTesyDefaultMat_img19
+map_Kd Resources/img19.jpg
+newmtl UTesyMetalLowReflection_img21
+map_Kd Resources/img21.jpg
+newmtl UTesyThinGlass
+newmtl UTesyMetalHighReflection
+newmtl UTesyDefaultMat_img8
+map_Kd Resources/img8.rgba
+newmtl UTesyDefaultMat_img16
+map_Kd Resources/img16.png
+newmtl UTesyDefaultMat_img17
+map_Kd Resources/img17.png
+newmtl UTesyTexturedPlasticHighReflection_img14
+map_Kd Resources/img14.jpg
+newmtl UTesyTexturedPlasticHighReflection
+newmtl UTesyTexturedPlasticLowReflection_img23
+map_Kd Resources/img23.jpg

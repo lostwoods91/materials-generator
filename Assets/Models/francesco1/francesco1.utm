@@ -1,0 +1,55 @@
+# francesco1.utm
+
+# DEFAULT MATERIAL
+definemat UTesyDefaultMat
+basemat UTesyDefaultMat
+
+# OTHER MATERIALS
+definemat UTesyDefaultMat
+basemat UTesyDefaultMat
+definemat UTesyThinGlass
+basemat UTesyThinGlass
+definemat UTesyTexturedPlastic
+basemat UTesyTexturedPlastic
+definemat UTesyMetalHighReflection
+basemat UTesyMetalHighReflection
+definemat UTesyTexturedPlastic_img18
+basemat UTesyTexturedPlastic
+settext img18.jpg
+definemat UTesyCeramic
+basemat UTesyCeramic
+definemat UTesyDefaultMat_img20
+basemat UTesyDefaultMat
+settext img20.jpg
+definemat UTesyMetalLowReflection
+basemat UTesyMetalLowReflection
+definemat UTesyTexturedPlastic_img19
+basemat UTesyTexturedPlastic
+settext img19.jpg
+definemat UTesyTexturedPlastic_img11
+basemat UTesyTexturedPlastic
+settext img11.jpg
+definemat UTesyMetalLowReflection_img13
+basemat UTesyMetalLowReflection
+settext img13.jpg
+definemat UTesyDefaultMat_img14
+basemat UTesyDefaultMat
+settext img14.jpg
+definemat UTesyWeightGlass
+basemat UTesyWeightGlass
+definemat UTesyTexturedPlasticHighReflection_img12
+basemat UTesyTexturedPlasticHighReflection
+settext img12.jpg
+definemat UTesyTexturedPlasticHighReflection
+basemat UTesyTexturedPlasticHighReflection
+definemat UTesyDefaultMat_img17
+basemat UTesyDefaultMat
+settext img17.jpg
+definemat UTesyDefaultMat_img16
+basemat UTesyDefaultMat
+settext img16.jpg
+definemat UTesyDefaultMat_img15
+basemat UTesyDefaultMat
+settext img15.jpg
+definemat UTesyTexturedPlasticLowReflection
+basemat UTesyTexturedPlasticLowReflection
