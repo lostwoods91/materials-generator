@@ -1,0 +1,240 @@
+# open.utm
+
+# DEFAULT MATERIAL
+definemat UTesyDefaultMat
+basemat UTesyDefaultMat
+
+# OTHER MATERIALS
+definemat UTesyMetalLowReflection++Color0
+basemat UTesyMetalLowReflection
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyWood+img45+Color1
+basemat UTesyWood
+settext img45.jpg
+setcolor 0.952941 0.913725 0.760784 1.000000
+definemat UTesyDefaultMat++Color2
+basemat UTesyDefaultMat
+setcolor 0.603922 0.603922 0.603922 1.000000
+definemat UTesyDefaultMat++Color3
+basemat UTesyDefaultMat
+setcolor 0.501961 0.501961 0.501961 1.000000
+definemat UTesyWood++Color4
+basemat UTesyWood
+setcolor 0.549020 0.549020 0.549020 1.000000
+definemat UTesyBrushedMetal+img13+Color5
+basemat UTesyBrushedMetal
+settext img13.jpg
+setcolor 0.835294 0.866667 0.866667 1.000000
+definemat UTesyWood++
+basemat UTesyWood
+definemat UTesyDefaultMat++Color6
+basemat UTesyDefaultMat
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color7
+basemat UTesyDefaultMat
+setcolor 0.000000 1.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color8
+basemat UTesyDefaultMat
+setcolor 0.113725 0.113725 0.113725 1.000000
+definemat UTesyDefaultMat++Color9
+basemat UTesyDefaultMat
+setcolor 0.976471 0.976471 0.976471 1.000000
+definemat UTesyWood++Color10
+basemat UTesyWood
+setcolor 0.827451 0.827451 0.827451 1.000000
+definemat UTesyMetalLowReflection+img31+Color11
+basemat UTesyMetalLowReflection
+settext img31.jpg
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyDefaultMat+img1+Color12
+basemat UTesyDefaultMat
+settext img1.jpg
+setcolor 0.501961 0.501961 0.501961 1.000000
+definemat UTesyDefaultMat+img1+Color13
+basemat UTesyDefaultMat
+settext img1.jpg
+setcolor 0.584314 0.584314 0.584314 1.000000
+definemat UTesyDefaultMat++Color14
+basemat UTesyDefaultMat
+setcolor 0.784314 0.784314 0.784314 1.000000
+definemat UTesyDefaultMat++Color15
+basemat UTesyDefaultMat
+setcolor 0.996078 0.039216 0.039216 1.000000
+definemat UTesyDefaultMat++Color16
+basemat UTesyDefaultMat
+setcolor 0.509804 0.509804 0.509804 1.000000
+definemat UTesyDefaultMat++Color17
+basemat UTesyDefaultMat
+setcolor 1.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat+img29+Color18
+basemat UTesyDefaultMat
+settext img29.jpg
+setcolor 0.976471 0.956863 0.925490 1.000000
+definemat UTesyWeightGlass++Color19
+basemat UTesyWeightGlass
+setcolor 1.000000 0.458824 0.098039 0.600000
+definemat UTesyMetalLowReflection++Color20
+basemat UTesyMetalLowReflection
+setcolor 0.835294 0.866667 0.866667 1.000000
+definemat UTesyWeightGlass++
+basemat UTesyWeightGlass
+definemat UTesyDefaultMat+img39+Color21
+basemat UTesyDefaultMat
+settext img39.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color22
+basemat UTesyDefaultMat
+setcolor 1.000000 0.960784 0.917647 1.000000
+definemat UTesyDefaultMat+img40+Color23
+basemat UTesyDefaultMat
+settext img40.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat+img41+Color24
+basemat UTesyDefaultMat
+settext img41.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color25
+basemat UTesyDefaultMat
+setcolor 0.376471 0.376471 0.376471 1.000000
+definemat UTesyDefaultMat++Color26
+basemat UTesyDefaultMat
+setcolor 0.454902 0.576471 0.415686 1.000000
+definemat UTesyWood+img38+Color27
+basemat UTesyWood
+settext img38.jpg
+setcolor 0.227451 0.227451 0.211765 1.000000
+definemat UTesyWood+img33+Color28
+basemat UTesyWood
+settext img33.jpg
+setcolor 0.227451 0.227451 0.211765 1.000000
+definemat UTesyMarble+img38+
+basemat UTesyMarble
+settext img38.jpg
+definemat UTesyDefaultMat++Color29
+basemat UTesyDefaultMat
+setcolor 0.294118 0.309804 0.364706 1.000000
+definemat UTesyWood+img46+Color30
+basemat UTesyWood
+settext img46.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color31
+basemat UTesyDefaultMat
+setcolor 0.776471 0.776471 0.776471 1.000000
+definemat UTesyDefaultMat++Color32
+basemat UTesyDefaultMat
+setcolor 0.882353 0.886275 0.898039 1.000000
+definemat UTesyDefaultMat++Color33
+basemat UTesyDefaultMat
+setcolor 0.400000 0.219608 0.156863 1.000000
+definemat UTesyDefaultMat+img25+Color34
+basemat UTesyDefaultMat
+settext img25.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat+img26+Color35
+basemat UTesyDefaultMat
+settext img26.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color36
+basemat UTesyDefaultMat
+setcolor 0.258824 0.258824 0.258824 0.203900
+definemat UTesyMarble+img38+Color37
+basemat UTesyMarble
+settext img38.jpg
+setcolor 0.219608 0.219608 0.203922 1.000000
+definemat UTesyThinGlass++
+basemat UTesyThinGlass
+definemat UTesyMetalHighReflection++Color38
+basemat UTesyMetalHighReflection
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyDefaultMat+img11+Color39
+basemat UTesyDefaultMat
+settext img11.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyCeramic++Color40
+basemat UTesyCeramic
+setcolor 1.000000 0.400000 0.000000 1.000000
+definemat UTesyDefaultMat+img12+Color41
+basemat UTesyDefaultMat
+settext img12.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyDefaultMat++Color42
+basemat UTesyDefaultMat
+setcolor 0.400000 0.317647 0.239216 1.000000
+definemat UTesyDefaultMat++Color43
+basemat UTesyDefaultMat
+setcolor 0.666667 0.666667 0.666667 1.000000
+definemat UTesyDefaultMat+img2+Color44
+basemat UTesyDefaultMat
+settext img2.png
+setcolor 0.700000 0.700000 0.700000 1.000000
+definemat UTesyDefaultMat++Color45
+basemat UTesyDefaultMat
+setcolor 0.886275 0.882353 0.866667 1.000000
+definemat UTesyCeramic+img43+Color46
+basemat UTesyCeramic
+settext img43.jpg
+setcolor 0.501961 0.000000 0.498039 1.000000
+definemat UTesyCeramic++Color47
+basemat UTesyCeramic
+setcolor 0.501961 0.000000 0.498039 1.000000
+definemat UTesyCeramic++
+basemat UTesyCeramic
+definemat UTesyCeramic++Color48
+basemat UTesyCeramic
+setcolor 0.117647 0.117647 0.117647 1.000000
+definemat UTesyDefaultMat+img4+Color49
+basemat UTesyDefaultMat
+settext img4.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyBrushedMetal++Color50
+basemat UTesyBrushedMetal
+setcolor 0.988235 0.988235 0.988235 1.000000
+definemat UTesyCeramic++Color51
+basemat UTesyCeramic
+setcolor 0.313726 0.313726 0.313726 1.000000
+definemat UTesyDefaultMat++Color52
+basemat UTesyDefaultMat
+setcolor 0.654902 0.388235 0.317647 1.000000
+definemat UTesyDefaultMat+img7+Color53
+basemat UTesyDefaultMat
+settext img7.jpg
+setcolor 0.000000 0.000000 0.000000 1.000000
+definemat UTesyWood+img48+Color54
+basemat UTesyWood
+settext img48.jpg
+setcolor 0.862745 0.862745 0.862745 1.000000
+definemat UTesyWeightGlass++Color55
+basemat UTesyWeightGlass
+setcolor 0.898039 0.898039 0.898039 0.600000
+definemat UTesyWood+img48+Color56
+basemat UTesyWood
+settext img48.jpg
+setcolor 0.823529 0.823529 0.823529 1.000000
+definemat UTesyTexturedPlastic++
+basemat UTesyTexturedPlastic
+definemat UTesyTexturedPlastic+img47+Color57
+basemat UTesyTexturedPlastic
+settext img47.jpg
+setcolor 0.949020 0.909804 0.882353 1.000000
+definemat UTesyDefaultMat++Color58
+basemat UTesyDefaultMat
+setcolor 0.647059 0.647059 0.647059 1.000000
+definemat UTesyDefaultMat++Color59
+basemat UTesyDefaultMat
+setcolor 1.000000 0.192157 0.192157 1.000000
+definemat UTesyDefaultMat++Color60
+basemat UTesyDefaultMat
+setcolor 0.976471 0.956863 0.925490 1.000000
+definemat UTesyDefaultMat+img30+Color61
+basemat UTesyDefaultMat
+settext img30.jpg
+setcolor 0.976471 0.976471 0.976471 1.000000
+definemat UTesyDefaultMat+img1+Color62
+basemat UTesyDefaultMat
+settext img1.jpg
+setcolor 0.486275 0.486275 0.486275 1.000000
+definemat UTesyWood+img16+
+basemat UTesyWood
+settext img16.jpg
+definemat UTesyClay++
+basemat UTesyClay

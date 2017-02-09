@@ -1,0 +1,168 @@
+# open.mtl
+
+# DEFAULT MATERIAL
+newmtl UTesyDefaultMat
+
+# OTHER MATERIALS
+newmtl UTesyMetalLowReflection++Color0
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyWood+img45+Color1
+map_Kd Resources/img45.jpg
+Kd 0.952941 0.913725 0.760784 1.000000
+newmtl UTesyDefaultMat++Color2
+Kd 0.603922 0.603922 0.603922 1.000000
+newmtl UTesyDefaultMat++Color3
+Kd 0.501961 0.501961 0.501961 1.000000
+newmtl UTesyWood++Color4
+Kd 0.549020 0.549020 0.549020 1.000000
+newmtl UTesyBrushedMetal+img13+Color5
+map_Kd Resources/img13.jpg
+Kd 0.835294 0.866667 0.866667 1.000000
+newmtl UTesyWood++
+newmtl UTesyDefaultMat++Color6
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color7
+Kd 0.000000 1.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color8
+Kd 0.113725 0.113725 0.113725 1.000000
+newmtl UTesyDefaultMat++Color9
+Kd 0.976471 0.976471 0.976471 1.000000
+newmtl UTesyWood++Color10
+Kd 0.827451 0.827451 0.827451 1.000000
+newmtl UTesyMetalLowReflection+img31+Color11
+map_Kd Resources/img31.jpg
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyDefaultMat+img1+Color12
+map_Kd Resources/img1.jpg
+Kd 0.501961 0.501961 0.501961 1.000000
+newmtl UTesyDefaultMat+img1+Color13
+map_Kd Resources/img1.jpg
+Kd 0.584314 0.584314 0.584314 1.000000
+newmtl UTesyDefaultMat++Color14
+Kd 0.784314 0.784314 0.784314 1.000000
+newmtl UTesyDefaultMat++Color15
+Kd 0.996078 0.039216 0.039216 1.000000
+newmtl UTesyDefaultMat++Color16
+Kd 0.509804 0.509804 0.509804 1.000000
+newmtl UTesyDefaultMat++Color17
+Kd 1.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat+img29+Color18
+map_Kd Resources/img29.jpg
+Kd 0.976471 0.956863 0.925490 1.000000
+newmtl UTesyWeightGlass++Color19
+Kd 1.000000 0.458824 0.098039 0.600000
+newmtl UTesyMetalLowReflection++Color20
+Kd 0.835294 0.866667 0.866667 1.000000
+newmtl UTesyWeightGlass++
+newmtl UTesyDefaultMat+img39+Color21
+map_Kd Resources/img39.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color22
+Kd 1.000000 0.960784 0.917647 1.000000
+newmtl UTesyDefaultMat+img40+Color23
+map_Kd Resources/img40.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat+img41+Color24
+map_Kd Resources/img41.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color25
+Kd 0.376471 0.376471 0.376471 1.000000
+newmtl UTesyDefaultMat++Color26
+Kd 0.454902 0.576471 0.415686 1.000000
+newmtl UTesyWood+img38+Color27
+map_Kd Resources/img38.jpg
+Kd 0.227451 0.227451 0.211765 1.000000
+newmtl UTesyWood+img33+Color28
+map_Kd Resources/img33.jpg
+Kd 0.227451 0.227451 0.211765 1.000000
+newmtl UTesyMarble+img38+
+map_Kd Resources/img38.jpg
+newmtl UTesyDefaultMat++Color29
+Kd 0.294118 0.309804 0.364706 1.000000
+newmtl UTesyWood+img46+Color30
+map_Kd Resources/img46.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color31
+Kd 0.776471 0.776471 0.776471 1.000000
+newmtl UTesyDefaultMat++Color32
+Kd 0.882353 0.886275 0.898039 1.000000
+newmtl UTesyDefaultMat++Color33
+Kd 0.400000 0.219608 0.156863 1.000000
+newmtl UTesyDefaultMat+img25+Color34
+map_Kd Resources/img25.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat+img26+Color35
+map_Kd Resources/img26.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color36
+Kd 0.258824 0.258824 0.258824 0.203900
+newmtl UTesyMarble+img38+Color37
+map_Kd Resources/img38.jpg
+Kd 0.219608 0.219608 0.203922 1.000000
+newmtl UTesyThinGlass++
+newmtl UTesyMetalHighReflection++Color38
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyDefaultMat+img11+Color39
+map_Kd Resources/img11.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyCeramic++Color40
+Kd 1.000000 0.400000 0.000000 1.000000
+newmtl UTesyDefaultMat+img12+Color41
+map_Kd Resources/img12.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyDefaultMat++Color42
+Kd 0.400000 0.317647 0.239216 1.000000
+newmtl UTesyDefaultMat++Color43
+Kd 0.666667 0.666667 0.666667 1.000000
+newmtl UTesyDefaultMat+img2+Color44
+map_Kd Resources/img2.png
+Kd 0.700000 0.700000 0.700000 1.000000
+newmtl UTesyDefaultMat++Color45
+Kd 0.886275 0.882353 0.866667 1.000000
+newmtl UTesyCeramic+img43+Color46
+map_Kd Resources/img43.jpg
+Kd 0.501961 0.000000 0.498039 1.000000
+newmtl UTesyCeramic++Color47
+Kd 0.501961 0.000000 0.498039 1.000000
+newmtl UTesyCeramic++
+newmtl UTesyCeramic++Color48
+Kd 0.117647 0.117647 0.117647 1.000000
+newmtl UTesyDefaultMat+img4+Color49
+map_Kd Resources/img4.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyBrushedMetal++Color50
+Kd 0.988235 0.988235 0.988235 1.000000
+newmtl UTesyCeramic++Color51
+Kd 0.313726 0.313726 0.313726 1.000000
+newmtl UTesyDefaultMat++Color52
+Kd 0.654902 0.388235 0.317647 1.000000
+newmtl UTesyDefaultMat+img7+Color53
+map_Kd Resources/img7.jpg
+Kd 0.000000 0.000000 0.000000 1.000000
+newmtl UTesyWood+img48+Color54
+map_Kd Resources/img48.jpg
+Kd 0.862745 0.862745 0.862745 1.000000
+newmtl UTesyWeightGlass++Color55
+Kd 0.898039 0.898039 0.898039 0.600000
+newmtl UTesyWood+img48+Color56
+map_Kd Resources/img48.jpg
+Kd 0.823529 0.823529 0.823529 1.000000
+newmtl UTesyTexturedPlastic++
+newmtl UTesyTexturedPlastic+img47+Color57
+map_Kd Resources/img47.jpg
+Kd 0.949020 0.909804 0.882353 1.000000
+newmtl UTesyDefaultMat++Color58
+Kd 0.647059 0.647059 0.647059 1.000000
+newmtl UTesyDefaultMat++Color59
+Kd 1.000000 0.192157 0.192157 1.000000
+newmtl UTesyDefaultMat++Color60
+Kd 0.976471 0.956863 0.925490 1.000000
+newmtl UTesyDefaultMat+img30+Color61
+map_Kd Resources/img30.jpg
+Kd 0.976471 0.976471 0.976471 1.000000
+newmtl UTesyDefaultMat+img1+Color62
+map_Kd Resources/img1.jpg
+Kd 0.486275 0.486275 0.486275 1.000000
+newmtl UTesyWood+img16+
+map_Kd Resources/img16.jpg
+newmtl UTesyClay++
