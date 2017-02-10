@@ -9,7 +9,7 @@ public class BaseMaterialsGenerator : MonoBehaviour
     void Start()
     {
         initFolder();
-        generateMaterialsFromTextFile("TabellaCorrispondenzaMateriali.txt");
+        Load("TabellaCorrispondenzaMateriali.txt");
     }
 
     private void initFolder()
@@ -22,37 +22,23 @@ public class BaseMaterialsGenerator : MonoBehaviour
         Debug.Log("initialized UTesyMaterials folder");
     }
 
-    private void generateMaterialsFromTextFile(string fileName)
-    {
-        Load(fileName);
-    }
-
     private bool Load(string fileName)
     {
         try
         {
             string line;
-            // Create a new StreamReader, tell it which file to read and what encoding the file was saved as
             StreamReader theReader = new StreamReader(fileName, Encoding.Default);
-
-            // Immediately clean up the reader after this block of code is done.
-            // You generally use the "using" statement for potentially memory-intensive objects
-            // instead of relying on garbage collection.
-            // (Do not confuse this with the using directive for namespace at the 
-            // beginning of a class!)
             using (theReader)
             {
                 do
                 {
                     line = theReader.ReadLine();
-
                     if (line != null)
                     {
                         parseLine(line);
                     }
                 }
                 while (line != null);
-                // Done reading, close the reader and return true to broadcast success
                 theReader.Close();
                 return true;
             }
@@ -93,9 +79,3 @@ public class BaseMaterialsGenerator : MonoBehaviour
     private const int mk_iNEntries = 7;
     private const string mk_sTesyMaterialsFolder = "Assets/AutoTesyMaterials/";
 }
-
-//struct TesyMaterial
-//{
-//    string FatherMaterialName;
-//    string UnityMaterialName;
-//}
