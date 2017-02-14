@@ -3,13 +3,27 @@
 # DEFAULT MATERIAL
 newmtl UTesyDefaultMat
 
-# OTHER MATERIALS
-newmtl UTesyDefaultMat
-newmtl UTesyDefaultMat_img3
-map_Kd Resources/img3.jpg
-newmtl UTesyMetalLowReflection
-newmtl UTesyTexturedPlastic_img4
-map_Kd Resources/img4.jpg
-newmtl UTesyTexturedPlasticLowReflection
-newmtl UTesyDefaultMat_img5
-map_Kd Resources/img5.jpg
+newmtl UTesyDefaultMat+img3+Color0
+Kd 0.700000 0.700000 0.700000 0.007813
+map_Kd Resources/cassapanca/img3.jpg
+
+newmtl UTesyMetalLowReflection+Color1
+Kd 0.988235 0.988235 0.988235 0.007813
+
+newmtl UTesyDefaultMat+Color2
+Kd 0.196078 0.396078 1.000000 0.007813
+
+newmtl UTesyWood+img4+Color3
+Kd 0.400000 0.219608 0.152941 0.007813
+map_Kd Resources/cassapanca/img4.jpg
+
+newmtl UTesyWood+Color4
+Kd 0.278431 0.819608 0.819608 0.007813
+
+newmtl UTesyClay+img5+Color5
+Kd 1.000000 1.000000 1.000000 0.007813
+map_Kd Resources/cassapanca/img5.jpg
+
+newmtl UTesyClay+Color6
+Kd 1.000000 1.000000 1.000000 0.007813
+

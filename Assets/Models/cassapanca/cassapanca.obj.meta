@@ -1,32 +1,232 @@
 fileFormatVersion: 2
-guid: a7099288f69afac4aaa1f93f939f8d5b
-timeCreated: 1481564218
+guid: 685ba96f1debcec42b04616f99fa5722
+timeCreated: 1487066651
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: ceil
-    100004: f1
-    100006: main
-    100008: pareti
-    400000: //RootNode
-    400002: ceil
-    400004: f1
-    400006: main
-    400008: pareti
-    2300000: ceil
-    2300002: f1
-    2300004: main
-    2300006: pareti
-    3300000: ceil
-    3300002: f1
-    3300004: main
-    3300006: pareti
-    4300000: ceil
-    4300002: f1
-    4300004: main
-    4300006: pareti
+    100000: cache/item0
+    100002: //RootNode
+    100004: k1/f1/+v1/an0/+v1/co1/mondx
+    100006: k1/f1/+v1/an0/+v1/co1/monsx
+    100008: k1/f1/+v1/an0/+v1/co1/travinf
+    100010: k1/f1/+v1/an0/+v1/co1/travsup
+    100012: k1/f1/+v1/an0/+v1/qu1
+    100014: k1/f1/+v1/an0/cec/fnd
+    100016: k1/f1/+v1/an0/cec/ridx
+    100018: k1/f1/+v1/an0/cec/risx
+    100020: k1/f1/+v1/an0/cec/sch
+    100022: k1/f1/+v1/an0/cec/spdx
+    100024: k1/f1/+v1/an0/cec/spsx
+    100026: k1/f1/+v2/an0/+v1/pa1
+    100028: k1/f1/+v2/an0/cec/fnd
+    100030: k1/f1/+v2/an0/cec/spdx
+    100032: k1/f1/+v2/an0/cec/spsx
+    100034: k1/f1/+v3/an0/+v1/pa1
+    100036: k1/f1/+v3/an0/cec/fnd
+    100038: k1/f1/+v3/an0/cec/spdx
+    100040: k1/f1/+v3/an0/cec/spsx
+    100042: k1/f1/fbs/cator_f/bl
+    100044: k1/f1/fbs/cator_r/bl
+    100046: k1/f1/fbs/fd1r/f1
+    100048: k1/f1/fbs/sch1r/graf
+    100050: k1/f1/fbs/sp1r/camver
+    100052: k1/f1/fbs/sp2r/camver
+    100054: k1/f1/gp/p1/ct
+    100056: k1/f1/gp/p1/dw
+    100058: k1/f1/gp/p1/up
+    100060: k1/f1/gp/p2/ct
+    100062: k1/f1/gp/p2/dw
+    100064: k1/f1/gp/p2/up
+    100066: k1/f1/gp/p3/ct
+    100068: k1/f1/gp/p3/dw
+    100070: k1/f1/gp/p3/up
+    100072: k1/f1/gp/p4/ct
+    100074: k1/f1/gp/p4/dw
+    100076: k1/f1/gp/p4/up
+    100078: k1/f1/gp/p5/ct
+    100080: k1/f1/gp/p5/dw
+    100082: k1/f1/gp/p5/up
+    100084: main/floor1
+    100086: pareti/wall1/shell/3d
+    100088: pareti/wall4/shell/3d
+    400000: cache/item0
+    400002: //RootNode
+    400004: k1/f1/+v1/an0/+v1/co1/mondx
+    400006: k1/f1/+v1/an0/+v1/co1/monsx
+    400008: k1/f1/+v1/an0/+v1/co1/travinf
+    400010: k1/f1/+v1/an0/+v1/co1/travsup
+    400012: k1/f1/+v1/an0/+v1/qu1
+    400014: k1/f1/+v1/an0/cec/fnd
+    400016: k1/f1/+v1/an0/cec/ridx
+    400018: k1/f1/+v1/an0/cec/risx
+    400020: k1/f1/+v1/an0/cec/sch
+    400022: k1/f1/+v1/an0/cec/spdx
+    400024: k1/f1/+v1/an0/cec/spsx
+    400026: k1/f1/+v2/an0/+v1/pa1
+    400028: k1/f1/+v2/an0/cec/fnd
+    400030: k1/f1/+v2/an0/cec/spdx
+    400032: k1/f1/+v2/an0/cec/spsx
+    400034: k1/f1/+v3/an0/+v1/pa1
+    400036: k1/f1/+v3/an0/cec/fnd
+    400038: k1/f1/+v3/an0/cec/spdx
+    400040: k1/f1/+v3/an0/cec/spsx
+    400042: k1/f1/fbs/cator_f/bl
+    400044: k1/f1/fbs/cator_r/bl
+    400046: k1/f1/fbs/fd1r/f1
+    400048: k1/f1/fbs/sch1r/graf
+    400050: k1/f1/fbs/sp1r/camver
+    400052: k1/f1/fbs/sp2r/camver
+    400054: k1/f1/gp/p1/ct
+    400056: k1/f1/gp/p1/dw
+    400058: k1/f1/gp/p1/up
+    400060: k1/f1/gp/p2/ct
+    400062: k1/f1/gp/p2/dw
+    400064: k1/f1/gp/p2/up
+    400066: k1/f1/gp/p3/ct
+    400068: k1/f1/gp/p3/dw
+    400070: k1/f1/gp/p3/up
+    400072: k1/f1/gp/p4/ct
+    400074: k1/f1/gp/p4/dw
+    400076: k1/f1/gp/p4/up
+    400078: k1/f1/gp/p5/ct
+    400080: k1/f1/gp/p5/dw
+    400082: k1/f1/gp/p5/up
+    400084: main/floor1
+    400086: pareti/wall1/shell/3d
+    400088: pareti/wall4/shell/3d
+    2300000: cache/item0
+    2300002: k1/f1/+v1/an0/+v1/co1/mondx
+    2300004: k1/f1/+v1/an0/+v1/co1/monsx
+    2300006: k1/f1/+v1/an0/+v1/co1/travinf
+    2300008: k1/f1/+v1/an0/+v1/co1/travsup
+    2300010: k1/f1/+v1/an0/+v1/qu1
+    2300012: k1/f1/+v1/an0/cec/fnd
+    2300014: k1/f1/+v1/an0/cec/ridx
+    2300016: k1/f1/+v1/an0/cec/risx
+    2300018: k1/f1/+v1/an0/cec/sch
+    2300020: k1/f1/+v1/an0/cec/spdx
+    2300022: k1/f1/+v1/an0/cec/spsx
+    2300024: k1/f1/+v2/an0/+v1/pa1
+    2300026: k1/f1/+v2/an0/cec/fnd
+    2300028: k1/f1/+v2/an0/cec/spdx
+    2300030: k1/f1/+v2/an0/cec/spsx
+    2300032: k1/f1/+v3/an0/+v1/pa1
+    2300034: k1/f1/+v3/an0/cec/fnd
+    2300036: k1/f1/+v3/an0/cec/spdx
+    2300038: k1/f1/+v3/an0/cec/spsx
+    2300040: k1/f1/fbs/cator_f/bl
+    2300042: k1/f1/fbs/cator_r/bl
+    2300044: k1/f1/fbs/fd1r/f1
+    2300046: k1/f1/fbs/sch1r/graf
+    2300048: k1/f1/fbs/sp1r/camver
+    2300050: k1/f1/fbs/sp2r/camver
+    2300052: k1/f1/gp/p1/ct
+    2300054: k1/f1/gp/p1/dw
+    2300056: k1/f1/gp/p1/up
+    2300058: k1/f1/gp/p2/ct
+    2300060: k1/f1/gp/p2/dw
+    2300062: k1/f1/gp/p2/up
+    2300064: k1/f1/gp/p3/ct
+    2300066: k1/f1/gp/p3/dw
+    2300068: k1/f1/gp/p3/up
+    2300070: k1/f1/gp/p4/ct
+    2300072: k1/f1/gp/p4/dw
+    2300074: k1/f1/gp/p4/up
+    2300076: k1/f1/gp/p5/ct
+    2300078: k1/f1/gp/p5/dw
+    2300080: k1/f1/gp/p5/up
+    2300082: main/floor1
+    2300084: pareti/wall1/shell/3d
+    2300086: pareti/wall4/shell/3d
+    3300000: cache/item0
+    3300002: k1/f1/+v1/an0/+v1/co1/mondx
+    3300004: k1/f1/+v1/an0/+v1/co1/monsx
+    3300006: k1/f1/+v1/an0/+v1/co1/travinf
+    3300008: k1/f1/+v1/an0/+v1/co1/travsup
+    3300010: k1/f1/+v1/an0/+v1/qu1
+    3300012: k1/f1/+v1/an0/cec/fnd
+    3300014: k1/f1/+v1/an0/cec/ridx
+    3300016: k1/f1/+v1/an0/cec/risx
+    3300018: k1/f1/+v1/an0/cec/sch
+    3300020: k1/f1/+v1/an0/cec/spdx
+    3300022: k1/f1/+v1/an0/cec/spsx
+    3300024: k1/f1/+v2/an0/+v1/pa1
+    3300026: k1/f1/+v2/an0/cec/fnd
+    3300028: k1/f1/+v2/an0/cec/spdx
+    3300030: k1/f1/+v2/an0/cec/spsx
+    3300032: k1/f1/+v3/an0/+v1/pa1
+    3300034: k1/f1/+v3/an0/cec/fnd
+    3300036: k1/f1/+v3/an0/cec/spdx
+    3300038: k1/f1/+v3/an0/cec/spsx
+    3300040: k1/f1/fbs/cator_f/bl
+    3300042: k1/f1/fbs/cator_r/bl
+    3300044: k1/f1/fbs/fd1r/f1
+    3300046: k1/f1/fbs/sch1r/graf
+    3300048: k1/f1/fbs/sp1r/camver
+    3300050: k1/f1/fbs/sp2r/camver
+    3300052: k1/f1/gp/p1/ct
+    3300054: k1/f1/gp/p1/dw
+    3300056: k1/f1/gp/p1/up
+    3300058: k1/f1/gp/p2/ct
+    3300060: k1/f1/gp/p2/dw
+    3300062: k1/f1/gp/p2/up
+    3300064: k1/f1/gp/p3/ct
+    3300066: k1/f1/gp/p3/dw
+    3300068: k1/f1/gp/p3/up
+    3300070: k1/f1/gp/p4/ct
+    3300072: k1/f1/gp/p4/dw
+    3300074: k1/f1/gp/p4/up
+    3300076: k1/f1/gp/p5/ct
+    3300078: k1/f1/gp/p5/dw
+    3300080: k1/f1/gp/p5/up
+    3300082: main/floor1
+    3300084: pareti/wall1/shell/3d
+    3300086: pareti/wall4/shell/3d
+    4300000: cache/item0
+    4300002: k1/f1/+v1/an0/+v1/co1/mondx
+    4300004: k1/f1/+v1/an0/+v1/co1/monsx
+    4300006: k1/f1/+v1/an0/+v1/co1/travinf
+    4300008: k1/f1/+v1/an0/+v1/co1/travsup
+    4300010: k1/f1/+v1/an0/+v1/qu1
+    4300012: k1/f1/+v1/an0/cec/fnd
+    4300014: k1/f1/+v1/an0/cec/ridx
+    4300016: k1/f1/+v1/an0/cec/risx
+    4300018: k1/f1/+v1/an0/cec/sch
+    4300020: k1/f1/+v1/an0/cec/spdx
+    4300022: k1/f1/+v1/an0/cec/spsx
+    4300024: k1/f1/+v2/an0/+v1/pa1
+    4300026: k1/f1/+v2/an0/cec/fnd
+    4300028: k1/f1/+v2/an0/cec/spdx
+    4300030: k1/f1/+v2/an0/cec/spsx
+    4300032: k1/f1/+v3/an0/+v1/pa1
+    4300034: k1/f1/+v3/an0/cec/fnd
+    4300036: k1/f1/+v3/an0/cec/spdx
+    4300038: k1/f1/+v3/an0/cec/spsx
+    4300040: k1/f1/fbs/cator_f/bl
+    4300042: k1/f1/fbs/cator_r/bl
+    4300044: k1/f1/fbs/fd1r/f1
+    4300046: k1/f1/fbs/sch1r/graf
+    4300048: k1/f1/fbs/sp1r/camver
+    4300050: k1/f1/fbs/sp2r/camver
+    4300052: k1/f1/gp/p1/ct
+    4300054: k1/f1/gp/p1/dw
+    4300056: k1/f1/gp/p1/up
+    4300058: k1/f1/gp/p2/ct
+    4300060: k1/f1/gp/p2/dw
+    4300062: k1/f1/gp/p2/up
+    4300064: k1/f1/gp/p3/ct
+    4300066: k1/f1/gp/p3/dw
+    4300068: k1/f1/gp/p3/up
+    4300070: k1/f1/gp/p4/ct
+    4300072: k1/f1/gp/p4/dw
+    4300074: k1/f1/gp/p4/up
+    4300076: k1/f1/gp/p5/ct
+    4300078: k1/f1/gp/p5/dw
+    4300080: k1/f1/gp/p5/up
+    4300082: main/floor1
+    4300084: pareti/wall1/shell/3d
+    4300086: pareti/wall4/shell/3d
   materials:
     importMaterials: 1
     materialName: 0
@@ -73,6 +273,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -83,7 +284,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1

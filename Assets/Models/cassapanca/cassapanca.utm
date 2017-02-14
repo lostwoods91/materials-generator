@@ -1,22 +1,91 @@
 # cassapanca.utm
 
 # DEFAULT MATERIAL
-definemat UTesyDefaultMat
-basemat UTesyDefaultMat
+definemat		UTesyDefaultMat
+basename		UTesyDefaultMat
+basecolor		1.000000 1.000000 1.000000
+basetexture		NONE
+metallic		0.000000
+roughness		0.000000
+emissivecolor	0.000000 0.000000 0.000000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
 
-# OTHER MATERIALS
-definemat UTesyDefaultMat
-basemat UTesyDefaultMat
-definemat UTesyDefaultMat_img3
-basemat UTesyDefaultMat
-settext img3.jpg
-definemat UTesyMetalLowReflection
-basemat UTesyMetalLowReflection
-definemat UTesyTexturedPlastic_img4
-basemat UTesyTexturedPlastic
-settext img4.jpg
-definemat UTesyTexturedPlasticLowReflection
-basemat UTesyTexturedPlasticLowReflection
-definemat UTesyDefaultMat_img5
-basemat UTesyDefaultMat
-settext img5.jpg
+definemat		UTesyDefaultMat+img3+Color0
+basename		UTesyDefaultMat
+basecolor		0.700000 0.700000 0.700000
+basetexture		img3.jpg
+metallic		0.000000
+roughness		0.000000
+emissivecolor	0.000000 0.000000 0.000000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyMetalLowReflection+Color1
+basename		UTesyMetalLowReflection
+basecolor		0.988235 0.988235 0.988235
+basetexture		NONE
+metallic		0.000000
+roughness		0.000000
+emissivecolor	0.000000 0.000000 0.000000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyDefaultMat+Color2
+basename		UTesyDefaultMat
+basecolor		0.196078 0.396078 1.000000
+basetexture		NONE
+metallic		0.000000
+roughness		0.000000
+emissivecolor	0.000000 0.000000 0.000000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyWood+img4+Color3
+basename		UTesyWood
+basecolor		0.400000 0.219608 0.152941
+basetexture		img4.jpg
+metallic		0.400000
+roughness		0.600000
+emissivecolor	0.666667 0.733333 0.800000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyWood+Color4
+basename		UTesyWood
+basecolor		0.278431 0.819608 0.819608
+basetexture		NONE
+metallic		0.400000
+roughness		0.600000
+emissivecolor	0.666667 0.733333 0.800000
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyClay+img5+Color5
+basename		UTesyClay
+basecolor		1.000000 1.000000 1.000000
+basetexture		img5.jpg
+metallic		0.100000
+roughness		0.900000
+emissivecolor	0.670588 0.674510 0.678431
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+
+definemat		UTesyClay+Color6
+basename		UTesyClay
+basecolor		1.000000 1.000000 1.000000
+basetexture		NONE
+metallic		0.100000
+roughness		0.900000
+emissivecolor	0.670588 0.674510 0.678431
+opacity			1.000000
+normal			NONE
+heightfield		NONE
+

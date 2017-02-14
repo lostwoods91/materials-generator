@@ -8,8 +8,7 @@ class MaterialDefinition
 {
     public MaterialDefinition()
     {
-        setInvalid();
-        verbose = true;
+        verbose = false;
     }
 
     public void setVerbose(bool value)
@@ -17,17 +16,22 @@ class MaterialDefinition
         verbose = value;
     }
 
-    private void setInvalid()
-    {
-        name = null;
-        basemat = null;
-        texture = null;
-        hasColor = false;
-    }
-
     private bool isValid()
     {
-        return name != null && basemat != null;
+        return name != null;
+    }
+
+    private void reset()
+    {
+        name = null;
+        baseColor = Color.white;
+        baseTexture = null;
+        metallic = 0.0f;
+        roughness = 0.0f;
+        emissiveColor = Color.black;
+        //opacity = 1.0f;        // integrated in baseColor
+        normalTexture = null;
+        heightFieldTexture = null;
     }
 
     public void setName(string value)
@@ -35,78 +39,93 @@ class MaterialDefinition
         name = value;
     }
 
-    public void setBaseMat(string value)
+    public void setBaseColor(float r, float g, float b)
     {
-        basemat = value;
+        baseColor.r = r;
+        baseColor.g = g;
+        baseColor.b = b;
     }
 
-    public void setTexture(string value)
+    public void setBaseTexture(string value)
     {
-        texture = value;
+        baseTexture = value;
     }
 
-    public void setColor(float r, float g, float b, float a)
+    public void setMetallic(float value)
     {
-        hasColor = true;
-        color.r = r;
-        color.g = g;
-        color.b = b;
-        color.a = a;
+        metallic = value;
+    }
+
+    public void setRoughness(float value)
+    {
+        roughness = value;
+    }
+
+    public void setEmissiveColor(float r, float g, float b)
+    {
+        emissiveColor.r = r;
+        emissiveColor.g = g;
+        emissiveColor.b = b;
+    }
+
+    public void setOpacity(float value)
+    {
+        baseColor.a = value;
+    }
+
+    public void setNormalTexture(string value)
+    {
+        normalTexture = value;
+    }
+
+    public void setHeightFieldTexture(string value)
+    {
+        heightFieldTexture = value;
     }
 
     public void create()
     {
         if (isValid())
         {
-            if (texture == null && !hasColor)
-            {
-                // è un materiale di base, mi assicuro che esista
-                Assert.AreNotEqual(Directory.GetFiles(baseMaterialsFolder, basemat + ".mat").Length, 0);
+            // mi assicuro che non esista già
+            Assert.AreEqual(Directory.GetFiles(customMaterialsFolder, name + ".mat").Length, 0);
 
-                if (verbose)
-                {
-                    Debug.Log("Found base material:\t" + name + "\n");
-                }
+            // compongo i parametri
+            Material material = new Material(Shader.Find("Standard"));
+
+            material.color = baseColor;
+
+            Texture2D baseText = Resources.Load<Texture2D>(modelName + "/" + baseTexture.Split('.')[0]);
+            if (baseText != null) material.mainTexture = baseText;
+
+            material.SetFloat(Shader.PropertyToID("_Metallic"), metallic);
+
+            material.SetFloat(Shader.PropertyToID("_Glossiness"), 1.0f - roughness);
+
+            material.SetColor(Shader.PropertyToID("_EmissionColor"), emissiveColor);
+
+            if (baseColor.a < 1.0f)
+            {
+                material.SetFloat(Shader.PropertyToID("_Mode"), 3);
             }
-            else
+
+            Texture2D normalText = Resources.Load<Texture2D>(modelName + "/" + normalTexture.Split('.')[0]);
+            if (normalText != null) material.SetTexture(Shader.PropertyToID("_BumpMap"), normalText);
+
+            Texture2D heightFieldText = Resources.Load<Texture2D>(modelName + "/" + heightFieldTexture.Split('.')[0]);
+            if (heightFieldText != null) material.SetTexture(Shader.PropertyToID("_ParallaxMap"), heightFieldText);
+
+            // quindi lo creo
+            string materialPath = customMaterialsFolder + "/" + name + ".mat";
+            AssetDatabase.CreateAsset(material, materialPath);
+
+            if (verbose)
             {
-                // è un materiale custom, mi assicuro che non esista già
-                Assert.AreEqual(Directory.GetFiles(customMaterialsFolder, name + ".mat").Length, 0);
-
-                // quindi lo creo
-                string materialPath = customMaterialsFolder + "/" + name + ".mat";
-                Material material;
-                Material temp = (Material)Resources.Load(basemat);
-                if (temp != null)
-                {
-                    material = new Material(temp);
-                }
-                else
-                {
-                    material = new Material(Shader.Find("Standard"));
-                }
-                if (texture != null)
-                {
-                    Texture2D text = Resources.Load<Texture2D>(modelName + "/" + texture.Split('.')[0]);
-                    material.mainTexture = text;
-                }
-                if (hasColor)
-                {
-                    material.color = color;
-                }
-                AssetDatabase.CreateAsset(material, materialPath);
-
-                if (verbose)
-                {
-                    Debug.Log("Created material:\t" + name + "\n");
-                    Debug.Log("\t- with base material:\t" + basemat + "\n");
-                    if (texture != null) Debug.Log("\t- with texture:\t" + texture + "\n");
-                    if (hasColor) Debug.Log("\t- with color:\t" + color + "\n");
-                }
+                Debug.Log("Created material:\t" + name + "\n");
             }
         }
         // annullo la validità del materiale appena analizzato
-        setInvalid();
+        reset();
     }
 
     public static void setBaseMaterialsFolder(string value)
@@ -128,11 +147,16 @@ class MaterialDefinition
     private static string customMaterialsFolder = null;
     private static string modelName = null;
 
-    private string name;
-    private string basemat;
-    private string texture;
-    private bool hasColor;
-    private Color color;
+    private string name = null;
+    private Color baseColor = Color.white;
+    private string baseTexture = null;
+    private float metallic = 0.0f;
+    private float roughness = 0.0f;
+    private Color emissiveColor = Color.black;
+    //private float opacity;        // integrated in baseColor
+    private string normalTexture = null;
+    private string heightFieldTexture = null;
 
-    private bool verbose;
+    private bool valid = false;
+    private bool verbose = false;
 }

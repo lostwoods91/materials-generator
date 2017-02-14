@@ -64,13 +64,13 @@ public class MaterialsGenerator : MonoBehaviour
             {
                 // inizializzo la definizione di materiale
                 current = new MaterialDefinition();
-                //current.setVerbose(false);
+                current.setVerbose(true);
                 MaterialDefinition.setModelName(modelName);
                 MaterialDefinition.setCustomMaterialsFolder(customMaterialsFolder);
                 MaterialDefinition.setBaseMaterialsFolder("Assets/" + baseMaterialsFolderName + "/Resources");
 
                 // mi assicuro che venga generata un'eccezione se qualcosa dovesse andare storto durante il parsing
-                Assert.raiseExceptions = false;
+                Assert.raiseExceptions = true;
 
                 // leggo il file riga per riga
                 do
@@ -109,7 +109,7 @@ public class MaterialsGenerator : MonoBehaviour
             return;     // commento
         }
 
-        string[] instruction = line.Split(' ');
+        string[] instruction = line.Split((char[])null, StringSplitOptions.RemoveEmptyEntries);
         string command = instruction[0];
         string value = instruction[1];
 
@@ -120,38 +120,78 @@ public class MaterialsGenerator : MonoBehaviour
             return;
         }
 
-        if (command == UTM_SET_BASE_MATERIAL)
+        if (command == UTM_BASE_MATERIAL_NAME)
         {
-            current.setBaseMat(value);
             return;
         }
 
-        if (command == UTM_SET_TEXTURE)
+        if (command == UTM_BASE_COLOR)
         {
-            current.setTexture(value);
+            Assert.AreEqual(instruction.Length, 4);
+            current.setBaseColor(Convert.ToSingle(instruction[1]), Convert.ToSingle(instruction[2]), Convert.ToSingle(instruction[3]));
             return;
         }
 
-        if (command == UTM_SET_COLOR)
+        if (command == UTM_BASE_TEXTURE)
         {
-            Assert.AreEqual(instruction.Length, 5);
-            current.setColor(Convert.ToSingle(instruction[1]), Convert.ToSingle(instruction[2]), Convert.ToSingle(instruction[3]), Convert.ToSingle(instruction[4]));
+            current.setBaseTexture(value);
+            return;
+        }
+
+        if (command == UTM_METALLIC)
+        {
+            current.setMetallic(Convert.ToSingle(value));
+            return;
+        }
+
+        if (command == UTM_ROUGHNESS)
+        {
+            current.setRoughness(Convert.ToSingle(value));
+            return;
+        }
+
+        if (command == UTM_EMISSIVE_COLOR)
+        {
+            Assert.AreEqual(instruction.Length, 4);
+            current.setEmissiveColor(Convert.ToSingle(instruction[1]), Convert.ToSingle(instruction[2]), Convert.ToSingle(instruction[3]));
+            return;
+        }
+
+        if (command == UTM_OPACITY)
+        {
+            current.setOpacity(Convert.ToSingle(value));
+            return;
+        }
+
+        if (command == UTM_NORMAL_TEXTURE)
+        {
+            current.setNormalTexture(value);
+            return;
+        }
+
+        if (command == UTM_HEIGHTFIELD_TEXTURE)
+        {
+            current.setHeightFieldTexture(value);
             return;
         }
     }
 
-    private const string customMaterialsFolderName = "CustomMaterials";
+    private const string customMaterialsFolderName = "Materials";
     private const string baseMaterialsFolderName = "UTesyMaterials";
 
     #region UTM_COMMANDS
 
-    // definizione di un nuovo materiale
-    private const string UTM_MATERIAL_DEFINITION = "definemat";
-
-    // personalizzazioni materiale
-    private const string UTM_SET_BASE_MATERIAL = "basemat";                                         // definizione della texture che il materiale personalizzato deve usare
-    private const string UTM_SET_TEXTURE = "settext";                                               // definizione della texture che il materiale personalizzato deve usare
-    private const string UTM_SET_COLOR = "setcolor";
+    // UTM spec
+    const string UTM_MATERIAL_DEFINITION = "definemat";
+    const string UTM_BASE_MATERIAL_NAME = "basename";
+    const string UTM_BASE_COLOR = "basecolor";
+    const string UTM_BASE_TEXTURE = "basetexture";
+    const string UTM_METALLIC = "metallic";
+    const string UTM_ROUGHNESS = "roughness";
+    const string UTM_EMISSIVE_COLOR = "emissivecolor";
+    const string UTM_OPACITY = "opacity";
+    const string UTM_NORMAL_TEXTURE = "normal";
+    const string UTM_HEIGHTFIELD_TEXTURE = "heightfield";
 
     #endregion
 
