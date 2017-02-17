@@ -18,7 +18,7 @@ basecolor		1.000000 1.000000 1.000000
 basetexture		NONE
 metallic		0.100000
 roughness		0.900000
-emissivecolor	0.670588 0.674510 0.678431
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -40,7 +40,7 @@ basecolor		0.952941 0.913725 0.760784
 basetexture		img45.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -73,7 +73,7 @@ basecolor		0.549020 0.549020 0.549020
 basetexture		NONE
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -95,7 +95,7 @@ basecolor		1.000000 1.000000 1.000000
 basetexture		NONE
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -150,7 +150,7 @@ basecolor		0.827451 0.827451 0.827451
 basetexture		NONE
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -359,7 +359,7 @@ basecolor		0.227451 0.227451 0.211765
 basetexture		img38.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -370,7 +370,7 @@ basecolor		0.227451 0.227451 0.211765
 basetexture		img33.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -403,7 +403,7 @@ basecolor		0.000000 0.000000 0.000000
 basetexture		img46.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -678,7 +678,7 @@ basecolor		0.862745 0.862745 0.862745
 basetexture		img48.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -700,7 +700,7 @@ basecolor		0.823529 0.823529 0.823529
 basetexture		img48.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
@@ -788,7 +788,7 @@ basecolor		1.000000 1.000000 1.000000
 basetexture		img16.jpg
 metallic		0.400000
 roughness		0.600000
-emissivecolor	0.666667 0.733333 0.800000
+emissivecolor	0.000000 0.000000 0.000000
 opacity			1.000000
 normal			NONE
 heightfield		NONE
